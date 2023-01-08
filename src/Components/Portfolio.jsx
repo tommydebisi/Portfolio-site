@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Simple Shell",
+    description: "Collaboration to replicate the common processes of the linux commandline",
+    url: "https://github.com/tommydebisi/simple_shell",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Monty Interpreter",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributed to a project that interprets Monty ByteCodes files, by employing the use of stacks and queues",
+    url: "https://github.com/tommydebisi/monty",
   },
   {
-    title: "My Resume Site",
+    title: "Airbnb clone",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Collaboration to build a clone of the airbnb website, employing the use of the front end technologies, devops and backend technologies",
+    url: "https://github.com/tommydebisi/AirBnB_clone_v4",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Printf",
+    description: "Collaboration to replicate the printf function in C programming language",
+    url: "https://github.com/tommydebisi/printf",
   },
 ];
 
@@ -64,7 +62,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
