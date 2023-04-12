@@ -32,25 +32,25 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Simple Shell",
-    description: "Collaboration to replicate the common processes of the linux commandline",
+    description: "Replication of the common processes of the linux commandline",
     url: "https://github.com/tommydebisi/simple_shell",
   },
   {
-    title: "Monty Interpreter",
+    title: "Kudiflow",
     description:
-      "Contributed to a project that interprets Monty ByteCodes files, by employing the use of stacks and queues",
-    url: "https://github.com/tommydebisi/monty",
+      "Backend of the application manages users' income and expenses",
+    url: "https://github.com/tommydebisi/KudiFlow-Backend",
   },
   {
-    title: "Airbnb clone",
+    title: "TomNote",
     description:
-      "Collaboration to build a clone of the airbnb website, employing the use of the front end technologies, devops and backend technologies",
-    url: "https://github.com/tommydebisi/AirBnB_clone_v4",
+      "Web Application that allows users to create, view, edit and delete notes",
+    url: "https://github.com/tommydebisi/TomNote",
   },
   {
-    title: "Printf",
-    description: "Collaboration to replicate the printf function in C programming language",
-    url: "https://github.com/tommydebisi/printf",
+    title: "Daila",
+    description: "Backend of the application that leverages on GPT-4 api to help students improve on their weak subjects",
+    url: "https://github.com/tommydebisi/Daila-Backend",
   },
 ];
 

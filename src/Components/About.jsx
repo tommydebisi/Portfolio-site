@@ -24,7 +24,7 @@ const imageAltText = "blue and green island background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Software Engineer with knowlegde on all stacks specializing in backend engineering. I enjoy solving software related problems and writing scalable code.";
+  "I'm a Software Engineer with knowlegde on all stacks specializing in backend engineering. I enjoy solving software related problems and learning cutting-edge technologies.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -40,12 +40,14 @@ const skillsList = [
   "C programming language",
   "CI/CD",
   "Nginx",
-  "OSI model",
   "Git",
   "Linux",
   "Bash scripting",
   "Unit testing",
   "Typescript",
+  "Golang",
+  "Nodejs",
+  "ExpressJs",
 ];
 
 /**
